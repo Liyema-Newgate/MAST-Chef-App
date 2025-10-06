@@ -1,6 +1,8 @@
 # MAST-Chef-App
 will contain part 2 and final poe for MAST and all react native code for the chef app. 
 
+Liyema Ngwevela ST10494709
+
 PArt 1: file:///C:/Users/lngwevela/Downloads/MAST%205112%20ST10494709%20Liyema%20Ngwevela%20Poe%20Part%201-1.pdf
 
 Code for part 2 : https://github.com/Liyema-Newgate/MAST-Chef-App.git 
