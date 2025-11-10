@@ -6,7 +6,7 @@ const MenuItemCard = ({ item, onPress, isSelected }) => {
     <TouchableOpacity
       style={[
         styles.card,
-        isSelected ? styles.cardSelected : null,
+        isSelected && styles.cardSelected, // Highlight if selected
       ]}
       onPress={() => onPress(item)}
     >
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     borderColor: "#333",
   },
   cardSelected: {
-    borderColor: "#4CAF50",
+    borderColor: "#fff",   // White border to show selection
     backgroundColor: "#2a2a2a",
   },
   infoContainer: {
