@@ -1,44 +1,14 @@
+// /data/menuData.js
 export const initialMenuItems = [
-  {
-    id: "1",
-    name: "Tomato Soup",
-    description: "Creamy roasted tomato soup with garlic croutons.",
-    price: 45,
-    course: "Starters",
-  },
-  {
-    id: "2",
-    name: "Bruschetta",
-    description: "Grilled bread topped with fresh tomato and basil.",
-    price: 55,
-    course: "Starters",
-  },
-  {
-    id: "3",
-    name: "Chicken Alfredo",
-    description: "Fettuccine with grilled chicken in creamy Alfredo sauce.",
-    price: 95,
-    course: "Mains",
-  },
-  {
-    id: "4",
-    name: "Beef Burger",
-    description: "Juicy patty with cheddar cheese and caramelized onions.",
-    price: 85,
-    course: "Mains",
-  },
-  {
-    id: "5",
-    name: "Chocolate Mousse",
-    description: "Rich chocolate mousse with whipped cream.",
-    price: 60,
-    course: "Desserts",
-  },
-  {
-    id: "6",
-    name: "Malva Pudding",
-    description: "Warm sponge pudding with caramel sauce.",
-    price: 70,
-    course: "Desserts",
-  },
+  // Starters (2)
+  { id: "s1", name: "Bruschetta", description: "Toasted bread with tomato & basil", price: 45, course: "Starters" },
+  { id: "s2", name: "Tomato Soup", description: "Creamy roasted tomato soup", price: 50, course: "Starters" },
+
+  // Mains (2)
+  { id: "m1", name: "Grilled Steak", description: "120g steak with roasted veg", price: 120, course: "Mains" },
+  { id: "m2", name: "Chicken Alfredo", description: "Creamy pasta with grilled chicken", price: 95, course: "Mains" },
+
+  // Desserts (2)
+  { id: "d1", name: "Chocolate Lava Cake", description: "Warm cake with molten center", price: 60, course: "Desserts" },
+  { id: "d2", name: "Cheesecake", description: "Classic creamy cheesecake", price: 55, course: "Desserts" },
 ];
